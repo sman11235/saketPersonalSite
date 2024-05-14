@@ -1,0 +1,22 @@
+@keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Apply the animation to the marquee */
+.marquee-comp {
+    animation: marquee 10s linear infinite;
+    background-color: white;
+    color: black;
+    font-family: Oswald;
+    font-size: 2.25em;
+    font-weight: 900;
+    overflow: hidden;
+    width: 5.69em;
+    padding-left: 0.909em;
+}
+
+p {
+    margin: 0;
+    line-height: 1;
+}
