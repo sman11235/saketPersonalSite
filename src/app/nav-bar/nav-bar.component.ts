@@ -11,8 +11,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
-  innerWidth : any;
-  numOfComps : number = 10;
+  innerWidth : number;
+  numOfComps : number;
   resizeObserver$! : Observable<Event>;
   narBarCompWidth = 220;
   resizeSubscription$! : Subscription;

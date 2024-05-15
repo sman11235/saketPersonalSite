@@ -1,10 +1,4 @@
-html {
-    margin: 0px;
-}
-
-body {
-    background-color: black;
-    margin: 0px;
-    overflow: hidden;
+main {
     min-height: 100vh;
+    display: flex;
 }

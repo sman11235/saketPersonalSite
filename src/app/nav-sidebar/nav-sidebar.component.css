@@ -1,0 +1,48 @@
+.main-sidebar-content {
+    height: 100%;
+    width: 15em;
+    position: sticky;
+    background-color: rgb(15, 14, 19);
+}
+
+p {
+    margin: 0;
+    line-height: 1.25;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar-section p {
+    margin-left: 1em;
+}
+
+.sidebar-section {
+    display: flex;
+    padding: 1em;
+    font-family: Oswald;
+    color: white;
+    margin-left: 1em;
+    border-radius: 1em;
+}
+
+.sidebar-section:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.subtitle {
+    padding: 1em;
+    font-family: Oswald;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder {
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    font-family: Oswald;
+    border-bottom: 1px solid rgb(63, 59, 67);
+    white-space: nowrap;
+    overflow: hidden;
+}
