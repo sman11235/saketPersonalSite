@@ -1,8 +1,9 @@
 .top-marquee-container {
-    background-color: white;
+    background-color: rgb(15, 14, 19);
     overflow: hidden;
     display: inline-flex;
     width: 100%;
+    height: 2.4em;
 }
 
 

@@ -6,8 +6,8 @@
 /* Apply the animation to the marquee */
 .marquee-comp {
     animation: marquee 10s linear infinite;
-    background-color: white;
-    color: black;
+    background-color: rgb(18, 17, 23);
+    color: white;
     font-family: Oswald;
     font-size: 2.25em;
     font-weight: 900;
