@@ -4,4 +4,7 @@ body {
     margin: 0px;
     overflow: hidden;
     height: 200vh;
+    font-weight: bold;
+    font-family: "Kanit",sans-serif;
+    text-shadow: 3px 3px rgb(96, 96, 221);
 }
