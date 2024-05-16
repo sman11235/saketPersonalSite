@@ -12,4 +12,6 @@ import { NavSidebarComponent } from './nav-sidebar/nav-sidebar.component';
 })
 export class AppComponent {
   title = 'saket.me';
+  ngOnInit(): void {
+  }
 }
