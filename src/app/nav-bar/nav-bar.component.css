@@ -8,6 +8,8 @@
     border-bottom: 2px solid rgb(96, 96, 221);
     /*border-image: linear-gradient(to right, rgb(15, 14, 19), rgb(96, 96, 221), rgb(15, 14, 19)) 1;*/
     justify-content: space-between;
+    top: 0;
+    z-index: 100;
 }
 
 input {
