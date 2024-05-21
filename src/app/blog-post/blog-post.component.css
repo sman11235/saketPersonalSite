@@ -1,0 +1,32 @@
+p {
+    margin: 0;
+    color: white;
+    text-shadow: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.info {
+    font-size: .75rem;
+    font-family: "JetBrains Mono", monospace;
+    text-transform: uppercase;
+}
+
+.date, .tags {
+    background-color: rgb(96, 96, 221);
+    padding: .2rem;
+    border-radius: .2rem;
+    margin-right: .4rem;
+}
+
+.blog-post {
+    margin-inline: 17rem;
+    border-bottom: rgb(96, 96, 221) solid 3px;
+    padding-bottom: 1rem;
+}
