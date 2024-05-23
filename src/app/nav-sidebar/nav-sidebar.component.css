@@ -1,7 +1,7 @@
 .main-sidebar-content {
     height: calc(100vh - 2.4em - 2px);
     width: 15em;
-    background-color: rgb(15, 14, 19);
+    background-color: var(--secondary-color);
     position: sticky;
     overflow: auto; 
     top: calc(2.4em + 2px);
@@ -19,32 +19,37 @@ p {
     overflow: visible;
 }
 
+.sidebar-section:visited {
+    text-decoration: none;
+}
+
 .sidebar-section {
     display: flex;
     padding: 1em;
-    color: white;
+    color: var(--highlight-two);
     margin-left: 1em;
     border-radius: 1em;
+    text-decoration: none;
 }
 
 .sidebar-section:hover {
-    background-color: rgb(96, 96, 221);
+    background-color: var(--primary-color);
     text-shadow: 0px 0px;
 }
 
 .subtitle {
     padding: 1em;
-    color: white;
+    color: var(--highlight-two);
     display: flex;
     justify-content: center;
     overflow: visible;
 }
 
 .placeholder {
-    color: rgb(255, 255, 255);
+    color: var(--highlight-two);
     padding: 1em;
-    border-bottom: 2px solid rgb(96, 96, 221);
-    border-image: linear-gradient(to right, rgb(15, 14, 19), rgb(96, 96, 221), rgb(15, 14, 19)) 1;
+    border-bottom: 2px solid var(--primary-color);
+    border-image: linear-gradient(to right, var(--secondary-color), var(--primary-color), var(--secondary-color)) 1;
     white-space: nowrap;
     overflow: hidden;
     text-shadow: none;
