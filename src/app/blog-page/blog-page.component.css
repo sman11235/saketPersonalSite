@@ -8,7 +8,7 @@ p {
 }
 
 .top-section {
-    background-color: rgb(96, 96, 221);
+    background-color: var(--primary-color);
     flex-direction: column;
     color: white;
     justify-content: center;
@@ -19,4 +19,18 @@ p {
 
 .title {
     font-size: 8rem;
+}
+
+#blog-post-area {
+    margin-bottom: 5em;
+}
+
+footer {
+    display: flex;
+    color: var(--highlight-two);
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+    text-shadow: none;
+    background-color: var(--primary-color);
 }

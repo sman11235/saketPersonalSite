@@ -1,16 +1,18 @@
 .main-content {
     color: var(--highlight-two);
     text-shadow: none;
-    font-size: 7em;
+    font-size: 3.8em;
     flex-direction: column;
     align-items: center;
 }
 
+@media all and (max-width: 359px) {
+    .main-content {font-size: 3.2em;}
+}
+
 #title-picture {
     justify-content: center;
-    height: 100%;
     align-items: center;
-    margin-left: 1em;
     animation: float 4s ease-in-out infinite;
 }
 
@@ -22,28 +24,24 @@
     margin: 0;
     position:relative;
     box-sizing: border-box;
-    padding-right: 1em;
-    margin-right: -1.2em;
-    border-bottom: 2px dashed var(--primary-color);
-    margin-left: 2rem;
 }
 
 #title-picture img {
     border: 5px solid var(--primary-color);
-    width:2.5em; 
-    height:4em; 
+    width:3.1em; 
+    height:5em; 
     border-radius: 50%; 
     background-color: var(--highlight-one); 
     z-index: 10;
-    margin-right: 2rem;
 }
 
-.title p {
+.panel1 p {
     font-size: 1rem;
     color: var(--primary-color);
     margin:0;
     font-size: 1.4rem;
-    margin-left: 2rem;
+    text-align: center;
+    margin-inline: 5%;
 }
   
 section {
@@ -53,11 +51,12 @@ section {
 .panel1 {
     align-items: center;
     height: calc(100vh - 2.4rem);
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .subtitle {
-    font-size: 3.2rem;
+    font-size: 2.7rem;
     margin: 0;
     text-align: center;
 }
@@ -71,7 +70,7 @@ section {
 }
 
 #about-me-content {
-    margin-inline: 8em;
+    margin-inline: 10%;
 }
 
 #links {
@@ -84,15 +83,13 @@ section {
 
 .work-entry {
     font-size: 1rem;
-    padding-inline: 14rem;
-    margin-inline: -3.5rem;
+    padding-inline: 7%;
     border-top: .1rem solid var(--primary-color);
 }
 
 .date {
     font-size: 1rem;
     color: var(--primary-color);
-    min-width: 20%;
 }
 
 #blog {
@@ -103,6 +100,7 @@ section {
     font-size: 2rem;
     flex-direction: column;
     padding: 5rem;
+    box-sizing: border-box;
 }
 
 #blog p {

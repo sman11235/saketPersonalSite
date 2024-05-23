@@ -1,8 +1,8 @@
 <app-nav-bar></app-nav-bar>
 <main>
-  <app-nav-sidebar></app-nav-sidebar>
+  <app-nav-sidebar *ngIf="!this.hideSideBar"></app-nav-sidebar>
   <article>
-    <app-blog-page></app-blog-page>
+    <router-outlet></router-outlet>
   </article>
 </main>
 
